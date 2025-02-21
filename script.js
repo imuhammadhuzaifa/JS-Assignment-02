@@ -67,7 +67,7 @@ document.write("<br>Value after addition is: " + num);
 
 document.write("<br>");
 
-var num = --num; 
+var num = --num;
 document.write("<br>Value after decrement is: " + num);
 
 document.write("<br>");
@@ -87,10 +87,8 @@ document.write("<br><br>");
 
 // Qno 05:
 
-var num = 4;
-for (var i = 1; i <= 10; i++) {
-    document.write("<br>" + num + " x " + i + " = " + num * i);
-}
+var num = prompt("Enter any number");
+document.write(num, " x 1 = ", num * 1, "<br>", num, " x 2 = ", num * 2, "<br>", num, " x 3 = ", num * 3, "<br>", num, " x 4 = ", num * 4, "<br>", num, " x 5 = ", num * 5, "<br>", num, " x 6 = ", num * 6, "<br>", num, " x 7 = ", num * 7, "<br>", num, " x 8 = ", num * 8, "<br>", num, " x 9 = ", num * 9, "<br>", num, " x 10 = ", num * 10, "<br>");
 
 document.write("<br><br>");
 
